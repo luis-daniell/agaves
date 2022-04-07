@@ -1,0 +1,16 @@
+{
+  "name": "pyme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o style.css",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}

@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .fondo-imagen{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.692)), url('/img/agave1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .fondo-div1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.692)), url('/img/agave.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .fondo-div2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.692)), url('/img/agave2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .fondo-contacto{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.692)), url('/img/contacto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .division{
+    background-repeat: no-repeat;
+    background-size: 100% ;
+  }
+  
+  .color-texto{
+    color: #254A29;
+  }
+  
+  .float{
+      position:fixed;
+      width:60px;
+      height:60px;
+      bottom:85px;
+      right:10px;
+      background-color:#25d366;
+      color:#FFF;
+      border-radius:50px;
+      text-align:center;
+    font-size:30px;
+      box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+  .float:hover {
+      text-decoration: none;
+      color: #25d366;
+    background-color:#fff;
+  }
+  
+  .my-float{
+      margin-top:16px;
+  }
+  
+  
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
